@@ -1,0 +1,10 @@
+uuid: c46a69a1-d21e-400b-9f87-c2bb8ac305ca
+langcode: en
+status: true
+dependencies: {  }
+id: kingly_paragraph_accordion
+label: Accordion
+icon_uuid: null
+icon_default: null
+description: 'A simple accordion paragraph.'
+behavior_plugins: {  }

@@ -1,0 +1,12 @@
+name: 'Kingly paragraph accordion'
+type: 'Site'
+description: Configures a Kingly accordion paragraph.
+
+install:
+  - paragraphs
+  - field_group
+  - paragraph_view_mode
+  - pathauto
+
+config:
+  strict: false

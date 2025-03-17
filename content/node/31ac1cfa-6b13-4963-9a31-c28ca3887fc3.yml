@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 31ac1cfa-6b13-4963-9a31-c28ca3887fc3
+  bundle: kingly_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Accordion paragraph'
+  created:
+    -
+      value: 1742240961
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /accordion-paragraph
+      langcode: en
+      pathauto: 1
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b6b18022-8829-437a-94f2-b27dbbc8e099
+          bundle: kingly_paragraph_accordion
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1742240979
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_accordion_content:
+            -
+              value: '<p>Accordion content</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus odio, condimentum non bibendum sit amet, rhoncus eu magna. Nunc scelerisque efficitur turpis pellentesque hendrerit. Pellentesque hendrerit dictum tristique. Integer maximus dolor at eros elementum, eu consequat mi tristique. Donec viverra nibh magna, ac posuere ante sollicitudin vel. Aenean imperdiet aliquet mauris. Curabitur sit amet tincidunt magna. Proin quis viverra magna. Nulla elementum, eros et aliquet tempus, purus nulla lobortis lectus, vel lobortis eros mi ac felis. Praesent tempus luctus dignissim. Curabitur libero magna, vehicula sed ligula pharetra, varius vehicula velit.</p>'
+              format: basic_html
+          field_kingly_accordion_heading:
+            -
+              value: 'Accordion heading'

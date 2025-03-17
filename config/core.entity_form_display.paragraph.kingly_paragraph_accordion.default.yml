@@ -1,0 +1,34 @@
+uuid: cf8f117d-8393-4405-9622-d609ec8eb1ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.kingly_paragraph_accordion.field_kingly_accordion_content
+    - field.field.paragraph.kingly_paragraph_accordion.field_kingly_accordion_heading
+    - paragraphs.paragraphs_type.kingly_paragraph_accordion
+  module:
+    - text
+id: paragraph.kingly_paragraph_accordion.default
+targetEntityType: paragraph
+bundle: kingly_paragraph_accordion
+mode: default
+content:
+  field_kingly_accordion_content:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_kingly_accordion_heading:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

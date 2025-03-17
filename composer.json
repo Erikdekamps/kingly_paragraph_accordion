@@ -1,0 +1,15 @@
+{
+    "name": "erikdekamps/kingly_paragraph_accordion",
+    "description": "A Drupal recipe that configures a Kingly accordion paragraph.",
+    "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": ">=10.4",
+        "drupal/field_group": "^3.0",
+        "drupal/pathauto": "^1.13",
+        "drupal/paragraph_view_mode": "^3.2",
+        "erikdekamps/kingly_page": "dev-main",
+        "erikdekamps/kingly_sdc": "dev-main"
+    }
+}

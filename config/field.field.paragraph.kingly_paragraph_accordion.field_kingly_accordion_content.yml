@@ -1,0 +1,24 @@
+uuid: 5a731af5-7ea3-459e-85cf-7cc980bc1bac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_kingly_accordion_content
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.kingly_paragraph_accordion
+  module:
+    - text
+id: paragraph.kingly_paragraph_accordion.field_kingly_accordion_content
+field_name: field_kingly_accordion_content
+entity_type: paragraph
+bundle: kingly_paragraph_accordion
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long
