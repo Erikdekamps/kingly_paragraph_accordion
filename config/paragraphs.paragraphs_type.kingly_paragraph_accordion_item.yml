@@ -1,0 +1,10 @@
+uuid: a1e2d83b-3c4a-4b1f-8e5d-9f2g7h1i0j3k
+langcode: en
+status: true
+dependencies: {  }
+id: kingly_paragraph_accordion_item
+label: 'Accordion Item'
+icon_uuid: null
+icon_default: null
+description: 'A single collapsible item with a heading and content, to be placed inside an Accordion container.'
+behavior_plugins: {  }

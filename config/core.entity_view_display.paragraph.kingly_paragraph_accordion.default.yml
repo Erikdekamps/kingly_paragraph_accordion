@@ -3,28 +3,21 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.kingly_paragraph_accordion.field_kingly_accordion_content
-    - field.field.paragraph.kingly_paragraph_accordion.field_kingly_accordion_heading
+    - field.field.paragraph.kingly_paragraph_accordion.field_accordion_items
     - paragraphs.paragraphs_type.kingly_paragraph_accordion
   module:
-    - text
+    - entity_reference_revisions
 id: paragraph.kingly_paragraph_accordion.default
 targetEntityType: paragraph
 bundle: kingly_paragraph_accordion
 mode: default
 content:
-  field_kingly_accordion_content:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  field_kingly_accordion_heading:
-    type: string
+  field_accordion_items:
+    type: entity_reference_revisions_entity_view
     label: hidden
     settings:
-      link_to_entity: false
+      view_mode: default
+      link: ''
     third_party_settings: {  }
     weight: 0
     region: content
