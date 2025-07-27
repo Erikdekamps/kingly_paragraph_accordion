@@ -5,15 +5,15 @@ dependencies:
   config:
     - field.storage.paragraph.field_kingly_accordion_content
     - filter.format.basic_html
-    - paragraphs.paragraphs_type.kingly_paragraph_accordion
+    - paragraphs.paragraphs_type.kingly_paragraph_accordion_item
   module:
     - text
-id: paragraph.kingly_paragraph_accordion.field_kingly_accordion_content
+id: paragraph.kingly_paragraph_accordion_item.field_kingly_accordion_content
 field_name: field_kingly_accordion_content
 entity_type: paragraph
-bundle: kingly_paragraph_accordion
+bundle: kingly_paragraph_accordion_item
 label: Content
-description: ''
+description: 'The collapsible content for this accordion item.'
 required: false
 translatable: false
 default_value: {  }

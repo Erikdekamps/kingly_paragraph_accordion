@@ -1,0 +1,34 @@
+uuid: a1b2c3d4-e5f6-a7b8-c9d0-e1f2a3b4c5d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_accordion_items
+    - paragraphs.paragraphs_type.kingly_paragraph_accordion
+    - paragraphs.paragraphs_type.kingly_paragraph_accordion_item
+  module:
+    - entity_reference_revisions
+id: paragraph.kingly_paragraph_accordion.field_accordion_items
+field_name: field_accordion_items
+entity_type: paragraph
+bundle: kingly_paragraph_accordion
+label: 'Accordion Items'
+description: 'Add one or more Accordion Item paragraphs.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      kingly_paragraph_accordion_item: kingly_paragraph_accordion_item
+    negate: 0
+    target_bundles_drag_drop:
+      kingly_paragraph_accordion:
+        weight: 2
+        enabled: false
+      kingly_paragraph_accordion_item:
+        weight: 3
+        enabled: true
+field_type: entity_reference_revisions

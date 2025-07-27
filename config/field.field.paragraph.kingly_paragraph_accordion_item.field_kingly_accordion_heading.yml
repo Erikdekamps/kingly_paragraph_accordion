@@ -4,14 +4,14 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_kingly_accordion_heading
-    - paragraphs.paragraphs_type.kingly_paragraph_accordion
-id: paragraph.kingly_paragraph_accordion.field_kingly_accordion_heading
+    - paragraphs.paragraphs_type.kingly_paragraph_accordion_item
+id: paragraph.kingly_paragraph_accordion_item.field_kingly_accordion_heading
 field_name: field_kingly_accordion_heading
 entity_type: paragraph
-bundle: kingly_paragraph_accordion
+bundle: kingly_paragraph_accordion_item
 label: Heading
-description: ''
-required: false
+description: 'The clickable title for this accordion item.'
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

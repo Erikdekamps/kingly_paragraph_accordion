@@ -6,5 +6,5 @@ id: kingly_paragraph_accordion
 label: Accordion
 icon_uuid: null
 icon_default: null
-description: 'A simple accordion paragraph.'
+description: 'A container paragraph for holding multiple Accordion Item paragraphs.'
 behavior_plugins: {  }
