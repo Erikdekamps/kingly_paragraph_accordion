@@ -14,7 +14,7 @@ bundle: kingly_paragraph_accordion
 mode: default
 content:
   field_accordion_items:
-    type: entity_reference_revisions_paragraph
+    type: entity_reference_paragraphs
     weight: 0
     region: content
     settings:
